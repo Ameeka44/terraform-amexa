@@ -6,7 +6,7 @@ count = 3
  instance_type = "t2.micro"
 
  tags = {
- Name = "Dev"
+ Name = "Dev-${count.index}"
  }
 
 }
